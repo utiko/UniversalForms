@@ -15,7 +15,7 @@
             <rect key="frame" x="0.0" y="0.0" width="400" height="100"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jpP-4m-Lko" id="jSN-RI-hRq">
-                <rect key="frame" x="0.0" y="0.0" width="400" height="99"/>
+                <rect key="frame" x="0.0" y="0.0" width="400" height="99.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6g4-3h-f1T">
@@ -39,7 +39,7 @@
                                 <rect key="frame" x="370" y="36" width="15" height="10"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TIMESLOT TYPE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgm-4Z-B96">
-                                <rect key="frame" x="160" y="10" width="81" height="16"/>
+                                <rect key="frame" x="159.5" y="10" width="81" height="16"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="11"/>
                                 <color key="textColor" red="0.55294120309999995" green="0.68627452850000004" blue="0.72156864399999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -63,15 +63,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="GkZ-FL-07A" firstAttribute="leading" secondItem="6g4-3h-f1T" secondAttribute="leading" constant="16" id="3gS-cK-Wwe"/>
                             <constraint firstItem="6Xe-er-rKk" firstAttribute="centerX" secondItem="6g4-3h-f1T" secondAttribute="centerX" id="4uS-9n-xmw"/>
                             <constraint firstItem="B68-fN-s5z" firstAttribute="top" secondItem="6g4-3h-f1T" secondAttribute="top" id="5e7-hG-N6r"/>
-                            <constraint firstAttribute="bottom" secondItem="GkZ-FL-07A" secondAttribute="bottom" constant="8" id="BwA-8H-Vmy"/>
+                            <constraint firstAttribute="bottom" secondItem="GkZ-FL-07A" secondAttribute="bottom" priority="300" constant="8" id="BwA-8H-Vmy"/>
                             <constraint firstItem="lgm-4Z-B96" firstAttribute="centerX" secondItem="6g4-3h-f1T" secondAttribute="centerX" id="Cx6-Og-AZL"/>
                             <constraint firstAttribute="trailing" secondItem="PSr-ci-ieu" secondAttribute="trailing" constant="15" id="KHh-HC-FJC"/>
-                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="500" id="L73-qy-TRW"/>
                             <constraint firstItem="ppU-nt-orL" firstAttribute="top" secondItem="lgm-4Z-B96" secondAttribute="bottom" constant="5" id="LWi-KE-s5Z"/>
                             <constraint firstItem="ppU-nt-orL" firstAttribute="centerX" secondItem="6g4-3h-f1T" secondAttribute="centerX" id="PPu-OH-K3P"/>
                             <constraint firstAttribute="trailing" secondItem="GkZ-FL-07A" secondAttribute="trailing" constant="16" id="PTX-rQ-g61"/>
@@ -86,13 +84,12 @@
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="6g4-3h-f1T" firstAttribute="width" secondItem="jSN-RI-hRq" secondAttribute="width" priority="900" id="al9-HS-sB2"/>
-                    <constraint firstItem="6g4-3h-f1T" firstAttribute="centerX" secondItem="jSN-RI-hRq" secondAttribute="centerX" id="dDP-Vy-kQU"/>
+                    <constraint firstItem="6g4-3h-f1T" firstAttribute="leading" secondItem="jSN-RI-hRq" secondAttribute="leading" id="12a-zV-uWM"/>
+                    <constraint firstAttribute="trailing" secondItem="6g4-3h-f1T" secondAttribute="trailing" id="Sho-6t-Vqo"/>
                     <constraint firstAttribute="bottom" secondItem="6g4-3h-f1T" secondAttribute="bottom" id="mqE-Ws-P7i"/>
                     <constraint firstItem="6g4-3h-f1T" firstAttribute="top" secondItem="jSN-RI-hRq" secondAttribute="top" id="uSi-8h-2lG"/>
                 </constraints>
             </tableViewCellContentView>
-            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
             <connections>
                 <outlet property="borderView" destination="B68-fN-s5z" id="KIr-Ue-g2Y"/>
                 <outlet property="descriptionLabel" destination="GkZ-FL-07A" id="IzN-xf-lDZ"/>

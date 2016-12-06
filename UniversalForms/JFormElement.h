@@ -24,6 +24,7 @@ typedef enum : NSUInteger {
 @interface JFormElement : NSObject
 
 + (JFormElement *)formElementWithType:(JFormElementType)type name:(NSString *)name;
++ (JFormElement *)formElementWithType:(JFormElementType)type name:(NSString *)name title:(NSString *)title;
 + (JFormElement *)formElementWithType:(JFormElementType)type name:(NSString *)name height:(CGFloat)height;
 
 @property (nonatomic) CGFloat height;

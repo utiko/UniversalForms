@@ -11,16 +11,22 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PickerCell" rowHeight="216" id="2mb-E7-giW" customClass="JFormElementPickerViewCell">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="216" id="2mb-E7-giW" customClass="JFormElementPickerViewCell">
             <rect key="frame" x="0.0" y="0.0" width="400" height="216"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2mb-E7-giW" id="I01-Z8-8wh">
                 <rect key="frame" x="0.0" y="0.0" width="400" height="215"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
+                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edK-U8-0D4">
+                        <rect key="frame" x="0.0" y="1" width="400" height="216"/>
+                    </pickerView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G7x-A2-mYm" customClass="JBorderedView">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="215"/>
+                        <rect key="frame" x="0.0" y="214" width="400" height="1"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="7au-9L-iSq"/>
+                        </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                 <real key="value" value="1"/>
@@ -32,13 +38,9 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edK-U8-0D4">
-                        <rect key="frame" x="0.0" y="1" width="400" height="216"/>
-                    </pickerView>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="G7x-A2-mYm" secondAttribute="bottom" id="0n9-uw-3LO"/>
-                    <constraint firstItem="G7x-A2-mYm" firstAttribute="top" secondItem="I01-Z8-8wh" secondAttribute="top" id="83C-aL-ld0"/>
                     <constraint firstItem="G7x-A2-mYm" firstAttribute="leading" secondItem="I01-Z8-8wh" secondAttribute="leading" id="DPA-eq-Tgv"/>
                     <constraint firstAttribute="trailing" secondItem="G7x-A2-mYm" secondAttribute="trailing" id="FWK-fe-XJ1"/>
                     <constraint firstAttribute="trailing" secondItem="edK-U8-0D4" secondAttribute="trailing" id="YOy-T1-gQq"/>
@@ -46,7 +48,6 @@
                     <constraint firstItem="edK-U8-0D4" firstAttribute="top" secondItem="I01-Z8-8wh" secondAttribute="top" constant="1" id="wIr-0q-D3A"/>
                 </constraints>
             </tableViewCellContentView>
-            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
             <connections>
                 <outlet property="borderView" destination="G7x-A2-mYm" id="vvL-CB-0JA"/>
                 <outlet property="pickerView" destination="edK-U8-0D4" id="RYw-p2-NUu"/>

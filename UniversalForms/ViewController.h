@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JChallengeGameRules.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, copy) JChallengeGameRules * gameRules;
+@property (nonatomic) NSInteger fieldsCount;
 
 @end
 

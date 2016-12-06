@@ -41,13 +41,13 @@
                                 <color key="textColor" red="0.55294120309999995" green="0.68627452850000004" blue="0.72156864399999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="(123) 456-78-90" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aAn-lh-8Ze">
+                            <textField opaque="NO" clipsSubviews="YES" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aAn-lh-8Ze">
                                 <rect key="frame" x="16" y="31" width="368" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="P8o-xg-nkn"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -71,7 +71,6 @@
                     <constraint firstItem="qNi-3p-UNc" firstAttribute="leading" secondItem="Oxv-HC-ghx" secondAttribute="leading" id="pbP-1g-nc9"/>
                 </constraints>
             </tableViewCellContentView>
-            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
             <connections>
                 <outlet property="borderView" destination="0B5-uP-ggV" id="xHu-xB-bZD"/>
                 <outlet property="textField" destination="aAn-lh-8Ze" id="aiW-49-YED"/>

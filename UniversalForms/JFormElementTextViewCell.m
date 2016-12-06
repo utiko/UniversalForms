@@ -25,11 +25,12 @@
 + (CGFloat)heightForCellWithText:(NSString *)text width:(CGFloat)width
 {
     if (width > 500) width = 500;
-    CGSize maxSize = CGSizeMake(width - 30, MAXFLOAT);
-    CGRect rect = [text boundingRectWithSize:maxSize options:0 attributes:@{NSFontAttributeName: [UIFont systemFontOfSize:14]} context:nil];
+    CGSize maxSize = CGSizeMake(width - 30, CGFLOAT_MAX);
+    CGRect rect = [text boundingRectWithSize:maxSize options:(NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading) attributes:@{NSFontAttributeName: [UIFont fontWithName:@"AvenirNext-Regular" size:14]} context:nil];
     CGFloat height = rect.size.height;
-    if (height < 30) height = 30;
-    return height + 34 + 8;
+    if (height < 22) height = 22;
+    NSLog(@"%@ %@", @(height), text);
+    return height + 58;
 }
 
 @end

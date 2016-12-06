@@ -18,6 +18,15 @@
     return element;
 }
 
++(JFormElement *)formElementWithType:(JFormElementType)type name:(NSString *)name title:(NSString *)title
+{
+    JFormElement * element = [[JFormElement alloc] init];
+    element.elementTitle = title;
+    element.elementName = name;
+    element.elementType = type;
+    return element;
+}
+
 +(JFormElement *)formElementWithType:(JFormElementType)type name:(NSString *)name height:(CGFloat)height
 {
     JFormElement * element = [[JFormElement alloc] init];

@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DatePickerCell" rowHeight="216" id="Dt5-4y-QcN" customClass="JFormElementDatePickerViewCell">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="216" id="Dt5-4y-QcN" customClass="JFormElementDatePickerViewCell">
             <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dt5-4y-QcN" id="mhT-u7-mTn">
@@ -22,8 +22,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="215"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZZ-2O-Hmh" customClass="JBorderedView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="215"/>
+                                <rect key="frame" x="0.0" y="214" width="375" height="1"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="e68-FD-Xpt"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                         <real key="value" value="1"/>
@@ -46,8 +49,6 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="GZZ-2O-Hmh" secondAttribute="trailing" id="0hR-p4-JzL"/>
                             <constraint firstAttribute="trailing" secondItem="6ec-OA-99I" secondAttribute="trailing" id="79N-WL-ib6"/>
-                            <constraint firstItem="GZZ-2O-Hmh" firstAttribute="top" secondItem="ca7-En-ScG" secondAttribute="top" id="GRa-3w-Ige"/>
-                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="500" id="KAp-Ev-GBS"/>
                             <constraint firstItem="6ec-OA-99I" firstAttribute="top" secondItem="ca7-En-ScG" secondAttribute="top" constant="1" id="KZE-w8-h7x"/>
                             <constraint firstAttribute="bottom" secondItem="GZZ-2O-Hmh" secondAttribute="bottom" id="Ml3-lr-rzb"/>
                             <constraint firstItem="GZZ-2O-Hmh" firstAttribute="leading" secondItem="ca7-En-ScG" secondAttribute="leading" id="mED-bV-X1v"/>
@@ -58,11 +59,10 @@
                 <constraints>
                     <constraint firstItem="ca7-En-ScG" firstAttribute="top" secondItem="mhT-u7-mTn" secondAttribute="top" id="78T-Ov-ynL"/>
                     <constraint firstAttribute="bottom" secondItem="ca7-En-ScG" secondAttribute="bottom" id="TF1-sh-ms8"/>
-                    <constraint firstItem="ca7-En-ScG" firstAttribute="width" secondItem="mhT-u7-mTn" secondAttribute="width" priority="900" id="UAD-Pk-Vks"/>
-                    <constraint firstItem="ca7-En-ScG" firstAttribute="centerX" secondItem="mhT-u7-mTn" secondAttribute="centerX" id="hWg-V3-9Bl"/>
+                    <constraint firstItem="ca7-En-ScG" firstAttribute="leading" secondItem="mhT-u7-mTn" secondAttribute="leading" id="bpU-iK-bVq"/>
+                    <constraint firstAttribute="trailing" secondItem="ca7-En-ScG" secondAttribute="trailing" id="fRr-LQ-Ccj"/>
                 </constraints>
             </tableViewCellContentView>
-            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
             <connections>
                 <outlet property="datePicker" destination="6ec-OA-99I" id="bPC-Fk-JwB"/>
                 <outlet property="datePickerView" destination="6ec-OA-99I" id="T6K-6s-E57"/>
