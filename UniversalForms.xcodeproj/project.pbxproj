@@ -13,6 +13,26 @@
 		3D67AC9C1DF1E20F00829B06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D67AC9A1DF1E20F00829B06 /* Main.storyboard */; };
 		3D67AC9E1DF1E20F00829B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D67AC9D1DF1E20F00829B06 /* Assets.xcassets */; };
 		3D67ACA11DF1E20F00829B06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D67AC9F1DF1E20F00829B06 /* LaunchScreen.storyboard */; };
+		3D67ACAB1DF1E26E00829B06 /* JFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D67ACAA1DF1E26E00829B06 /* JFormController.m */; };
+		3D67ACAE1DF1E40B00829B06 /* JFormElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D67ACAD1DF1E40B00829B06 /* JFormElement.m */; };
+		3D67ACB81DF1F30800829B06 /* JFormElementTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D67ACB61DF1F30800829B06 /* JFormElementTextViewCell.m */; };
+		3D67ACB91DF1F30800829B06 /* JFormElementTextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D67ACB71DF1F30800829B06 /* JFormElementTextViewCell.xib */; };
+		3D67ACBC1DF1F37100829B06 /* JTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D67ACBB1DF1F37100829B06 /* JTableViewCell.m */; };
+		3D67ACBF1DF1F38D00829B06 /* uTikoGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D67ACBE1DF1F38D00829B06 /* uTikoGraphic.m */; };
+		3DC82A551DF57F3800849252 /* JBorderedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC82A541DF57F3800849252 /* JBorderedView.m */; };
+		3DC82A591DF5C08000849252 /* JFormElementPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC82A571DF5C08000849252 /* JFormElementPickerCell.m */; };
+		3DC82A5A1DF5C08000849252 /* JFormElementPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC82A581DF5C08000849252 /* JFormElementPickerCell.xib */; };
+		3DC82A5D1DF5CEE600849252 /* JFormElementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC82A5C1DF5CEE600849252 /* JFormElementCell.m */; };
+		3DC82A641DF5CFDA00849252 /* JFormElementSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC82A621DF5CFDA00849252 /* JFormElementSwitchCell.m */; };
+		3DC82A651DF5CFDA00849252 /* JFormElementSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC82A631DF5CFDA00849252 /* JFormElementSwitchCell.xib */; };
+		3DC82A691DF5CFEE00849252 /* JFormElementTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC82A671DF5CFEE00849252 /* JFormElementTextFieldCell.m */; };
+		3DC82A6A1DF5CFEE00849252 /* JFormElementTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC82A681DF5CFEE00849252 /* JFormElementTextFieldCell.xib */; };
+		3DC82A6E1DF5D34900849252 /* JFormElementSplitterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC82A6C1DF5D34900849252 /* JFormElementSplitterCell.m */; };
+		3DC82A6F1DF5D34900849252 /* JFormElementSplitterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC82A6D1DF5D34900849252 /* JFormElementSplitterCell.xib */; };
+		3DC82A721DF69F0B00849252 /* JFormElementPickerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC82A711DF69F0B00849252 /* JFormElementPickerViewCell.m */; };
+		3DC82A741DF69F2900849252 /* JFormElementPickerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC82A731DF69F2900849252 /* JFormElementPickerViewCell.xib */; };
+		3DC82A771DF6A02900849252 /* JFormElementDatePickerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC82A761DF6A02900849252 /* JFormElementDatePickerViewCell.m */; };
+		3DC82A791DF6A04300849252 /* JFormElementDatePickerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC82A781DF6A04300849252 /* JFormElementDatePickerViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +46,39 @@
 		3D67AC9D1DF1E20F00829B06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D67ACA01DF1E20F00829B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D67ACA21DF1E20F00829B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D67ACA91DF1E26E00829B06 /* JFormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFormController.h; sourceTree = "<group>"; };
+		3D67ACAA1DF1E26E00829B06 /* JFormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFormController.m; sourceTree = "<group>"; };
+		3D67ACAC1DF1E40B00829B06 /* JFormElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFormElement.h; sourceTree = "<group>"; };
+		3D67ACAD1DF1E40B00829B06 /* JFormElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFormElement.m; sourceTree = "<group>"; };
+		3D67ACB51DF1F30800829B06 /* JFormElementTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFormElementTextViewCell.h; sourceTree = "<group>"; };
+		3D67ACB61DF1F30800829B06 /* JFormElementTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFormElementTextViewCell.m; sourceTree = "<group>"; };
+		3D67ACB71DF1F30800829B06 /* JFormElementTextViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFormElementTextViewCell.xib; sourceTree = "<group>"; };
+		3D67ACBA1DF1F37100829B06 /* JTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTableViewCell.h; sourceTree = "<group>"; };
+		3D67ACBB1DF1F37100829B06 /* JTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTableViewCell.m; sourceTree = "<group>"; };
+		3D67ACBD1DF1F38D00829B06 /* uTikoGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uTikoGraphic.h; sourceTree = "<group>"; };
+		3D67ACBE1DF1F38D00829B06 /* uTikoGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = uTikoGraphic.m; sourceTree = "<group>"; };
+		3DC82A531DF57F3800849252 /* JBorderedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBorderedView.h; sourceTree = "<group>"; };
+		3DC82A541DF57F3800849252 /* JBorderedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBorderedView.m; sourceTree = "<group>"; };
+		3DC82A561DF5C08000849252 /* JFormElementPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFormElementPickerCell.h; sourceTree = "<group>"; };
+		3DC82A571DF5C08000849252 /* JFormElementPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFormElementPickerCell.m; sourceTree = "<group>"; };
+		3DC82A581DF5C08000849252 /* JFormElementPickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFormElementPickerCell.xib; sourceTree = "<group>"; };
+		3DC82A5B1DF5CEE600849252 /* JFormElementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFormElementCell.h; sourceTree = "<group>"; };
+		3DC82A5C1DF5CEE600849252 /* JFormElementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFormElementCell.m; sourceTree = "<group>"; };
+		3DC82A611DF5CFDA00849252 /* JFormElementSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFormElementSwitchCell.h; sourceTree = "<group>"; };
+		3DC82A621DF5CFDA00849252 /* JFormElementSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFormElementSwitchCell.m; sourceTree = "<group>"; };
+		3DC82A631DF5CFDA00849252 /* JFormElementSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFormElementSwitchCell.xib; sourceTree = "<group>"; };
+		3DC82A661DF5CFEE00849252 /* JFormElementTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFormElementTextFieldCell.h; sourceTree = "<group>"; };
+		3DC82A671DF5CFEE00849252 /* JFormElementTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFormElementTextFieldCell.m; sourceTree = "<group>"; };
+		3DC82A681DF5CFEE00849252 /* JFormElementTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFormElementTextFieldCell.xib; sourceTree = "<group>"; };
+		3DC82A6B1DF5D34900849252 /* JFormElementSplitterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFormElementSplitterCell.h; sourceTree = "<group>"; };
+		3DC82A6C1DF5D34900849252 /* JFormElementSplitterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFormElementSplitterCell.m; sourceTree = "<group>"; };
+		3DC82A6D1DF5D34900849252 /* JFormElementSplitterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFormElementSplitterCell.xib; sourceTree = "<group>"; };
+		3DC82A701DF69F0B00849252 /* JFormElementPickerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFormElementPickerViewCell.h; sourceTree = "<group>"; };
+		3DC82A711DF69F0B00849252 /* JFormElementPickerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFormElementPickerViewCell.m; sourceTree = "<group>"; };
+		3DC82A731DF69F2900849252 /* JFormElementPickerViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFormElementPickerViewCell.xib; sourceTree = "<group>"; };
+		3DC82A751DF6A02900849252 /* JFormElementDatePickerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFormElementDatePickerViewCell.h; sourceTree = "<group>"; };
+		3DC82A761DF6A02900849252 /* JFormElementDatePickerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFormElementDatePickerViewCell.m; sourceTree = "<group>"; };
+		3DC82A781DF6A04300849252 /* JFormElementDatePickerViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFormElementDatePickerViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +111,7 @@
 		3D67AC901DF1E20F00829B06 /* UniversalForms */ = {
 			isa = PBXGroup;
 			children = (
+				3D67ACA81DF1E21B00829B06 /* Forms */,
 				3D67AC941DF1E20F00829B06 /* AppDelegate.h */,
 				3D67AC951DF1E20F00829B06 /* AppDelegate.m */,
 				3D67AC971DF1E20F00829B06 /* ViewController.h */,
@@ -77,6 +131,46 @@
 				3D67AC921DF1E20F00829B06 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D67ACA81DF1E21B00829B06 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				3D67ACBD1DF1F38D00829B06 /* uTikoGraphic.h */,
+				3D67ACBE1DF1F38D00829B06 /* uTikoGraphic.m */,
+				3DC82A531DF57F3800849252 /* JBorderedView.h */,
+				3DC82A541DF57F3800849252 /* JBorderedView.m */,
+				3D67ACBA1DF1F37100829B06 /* JTableViewCell.h */,
+				3D67ACBB1DF1F37100829B06 /* JTableViewCell.m */,
+				3D67ACA91DF1E26E00829B06 /* JFormController.h */,
+				3D67ACAA1DF1E26E00829B06 /* JFormController.m */,
+				3D67ACAC1DF1E40B00829B06 /* JFormElement.h */,
+				3D67ACAD1DF1E40B00829B06 /* JFormElement.m */,
+				3DC82A5B1DF5CEE600849252 /* JFormElementCell.h */,
+				3DC82A5C1DF5CEE600849252 /* JFormElementCell.m */,
+				3D67ACB51DF1F30800829B06 /* JFormElementTextViewCell.h */,
+				3D67ACB61DF1F30800829B06 /* JFormElementTextViewCell.m */,
+				3D67ACB71DF1F30800829B06 /* JFormElementTextViewCell.xib */,
+				3DC82A561DF5C08000849252 /* JFormElementPickerCell.h */,
+				3DC82A571DF5C08000849252 /* JFormElementPickerCell.m */,
+				3DC82A581DF5C08000849252 /* JFormElementPickerCell.xib */,
+				3DC82A701DF69F0B00849252 /* JFormElementPickerViewCell.h */,
+				3DC82A711DF69F0B00849252 /* JFormElementPickerViewCell.m */,
+				3DC82A731DF69F2900849252 /* JFormElementPickerViewCell.xib */,
+				3DC82A751DF6A02900849252 /* JFormElementDatePickerViewCell.h */,
+				3DC82A761DF6A02900849252 /* JFormElementDatePickerViewCell.m */,
+				3DC82A781DF6A04300849252 /* JFormElementDatePickerViewCell.xib */,
+				3DC82A611DF5CFDA00849252 /* JFormElementSwitchCell.h */,
+				3DC82A621DF5CFDA00849252 /* JFormElementSwitchCell.m */,
+				3DC82A631DF5CFDA00849252 /* JFormElementSwitchCell.xib */,
+				3DC82A661DF5CFEE00849252 /* JFormElementTextFieldCell.h */,
+				3DC82A671DF5CFEE00849252 /* JFormElementTextFieldCell.m */,
+				3DC82A681DF5CFEE00849252 /* JFormElementTextFieldCell.xib */,
+				3DC82A6B1DF5D34900849252 /* JFormElementSplitterCell.h */,
+				3DC82A6C1DF5D34900849252 /* JFormElementSplitterCell.m */,
+				3DC82A6D1DF5D34900849252 /* JFormElementSplitterCell.xib */,
+			);
+			name = Forms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +232,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC82A741DF69F2900849252 /* JFormElementPickerViewCell.xib in Resources */,
 				3D67ACA11DF1E20F00829B06 /* LaunchScreen.storyboard in Resources */,
+				3D67ACB91DF1F30800829B06 /* JFormElementTextViewCell.xib in Resources */,
 				3D67AC9E1DF1E20F00829B06 /* Assets.xcassets in Resources */,
+				3DC82A791DF6A04300849252 /* JFormElementDatePickerViewCell.xib in Resources */,
+				3DC82A651DF5CFDA00849252 /* JFormElementSwitchCell.xib in Resources */,
+				3DC82A6F1DF5D34900849252 /* JFormElementSplitterCell.xib in Resources */,
 				3D67AC9C1DF1E20F00829B06 /* Main.storyboard in Resources */,
+				3DC82A5A1DF5C08000849252 /* JFormElementPickerCell.xib in Resources */,
+				3DC82A6A1DF5CFEE00849252 /* JFormElementTextFieldCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +252,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D67ACBC1DF1F37100829B06 /* JTableViewCell.m in Sources */,
+				3DC82A5D1DF5CEE600849252 /* JFormElementCell.m in Sources */,
+				3D67ACAE1DF1E40B00829B06 /* JFormElement.m in Sources */,
 				3D67AC991DF1E20F00829B06 /* ViewController.m in Sources */,
+				3DC82A771DF6A02900849252 /* JFormElementDatePickerViewCell.m in Sources */,
 				3D67AC961DF1E20F00829B06 /* AppDelegate.m in Sources */,
+				3DC82A551DF57F3800849252 /* JBorderedView.m in Sources */,
+				3D67ACAB1DF1E26E00829B06 /* JFormController.m in Sources */,
+				3DC82A691DF5CFEE00849252 /* JFormElementTextFieldCell.m in Sources */,
+				3DC82A721DF69F0B00849252 /* JFormElementPickerViewCell.m in Sources */,
+				3DC82A591DF5C08000849252 /* JFormElementPickerCell.m in Sources */,
 				3D67AC931DF1E20F00829B06 /* main.m in Sources */,
+				3D67ACB81DF1F30800829B06 /* JFormElementTextViewCell.m in Sources */,
+				3D67ACBF1DF1F38D00829B06 /* uTikoGraphic.m in Sources */,
+				3DC82A6E1DF5D34900849252 /* JFormElementSplitterCell.m in Sources */,
+				3DC82A641DF5CFDA00849252 /* JFormElementSwitchCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +426,7 @@
 				3D67ACA71DF1E20F00829B06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
